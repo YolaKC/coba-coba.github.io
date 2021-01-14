@@ -1,0 +1,447 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century gothic';
+}
+.logo {
+	width: 100%;
+	height: 100%;
+	background-color: #E3EEF4;
+}
+.logo1 {
+	width: 500px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+.logo2 {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	/*padding-top: 10px; */
+}
+.body {
+	width: 100%;
+	height: 555px;
+	background-color: #E3EEF4;	
+}
+.body1 {
+	width: 1000px;
+	height: 500px;
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.navbar {
+	width: 90%;
+	box-sizing: border-box;
+	margin: 0 auto; 
+	line-height: 100px;
+	overflow: hidden;
+}
+.menu a {
+    /*mengatur tata letak navbar*/
+	text-decoration: none;
+	color: #0c3b55;
+	margin-left:5px;
+	padding: 20px 45px;
+	line-height: 50px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.menu a:hover {
+    /*kotak biru*/
+	background-color: #a4d8f5;
+}
+.body2 {
+    width: 1200px;
+    height: 400px;
+    /*background-color: lightcyan;*/
+    position: relative;
+}
+.gambar1 {
+    /*gambar*/
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -20px;
+    left:200px;
+    background-image: url(../img/materi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text {
+    /*mengatur tulisan bawah gambar*/
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top:310px;
+    left:190px;
+    box-sizing: border-box;
+    color: #0c3b55;
+}
+.bawah {
+	width: 100%;
+	height: 1700px;
+	background-color: #E3EEF4;
+}
+.kotak {
+	width: 1000px;
+	height: 1700px;
+	margin: 0 auto;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.desc {
+	width: 100%;
+	height: 100px;
+	border-radius: 20px;
+}
+.desc h2 {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.jenis1 h3 {
+	color: black;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	border-radius: 10px;
+	background: #FDD9EA;
+	padding-top: 20px;
+}
+.jenis1 {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	background-image: url(../img/watercolor-1.jpg);
+	border-radius: 20px;
+}
+.matematika:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.matematika {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.matematika a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.biologi:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.biologi {
+	width: 175px;
+	height: 175px;
+	background-color:white;
+	margin-top: 30px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.biologi a {
+	color: #1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.fisika:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.fisika {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 30px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.fisika a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.Bindo:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.Bindo {
+	width: 175px;
+	height: 175px;
+	background-color:white;
+	margin-top: 30px;
+	margin-right: 10px;
+	float: right;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.Bindo a {
+	color:#1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.Bing:hover {
+	box-shadow: 0px 0px 10px 5px #1B6678;
+}
+.Bing {
+	width: 175px;
+	height: 175px;
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.Bing a {
+	color: #1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.jenis2 h3 {
+	color: black;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	border-radius: 10px;
+	background: #D1F0FA;
+	padding-top: 20px;
+}
+.jenis2 {
+	width: 100%;
+	height: 850px;
+	overflow: hidden;
+	margin-top: 50px;
+	background-image: url(../img/pink.jpg);
+	border-radius: 20px;
+}
+.mate:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.mate {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 60px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.mate a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.bio:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.bio {
+	width: 175px;
+	height: 175px;
+	background-color: white;
+	margin-top: 60px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.bio a {
+	color: #1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.fis:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.fis {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 60px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.fis a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.kimia:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.kimia {
+	width: 175px;
+	height: 175px;
+	background-color:white;
+	margin-top: 60px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.kimia a {
+	color: #1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.bin:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.bin {
+	width: 175px;
+	height: 175px;
+	background-color: white;
+	margin-top: 60px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.bin a {
+	color:#1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.bahasainggris:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.bahasainggris {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 60px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.bahasainggris a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.ekonomi:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.ekonomi {
+	width: 175px;
+	height: 175px;
+	background-color: white;
+	margin-top: 60px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.ekonomi a {
+	color:#1B6678;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.sosio:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.sosio {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 60px;
+	margin-left: 94px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.sosio a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+.geo:hover {
+	box-shadow: 0px 0px 10px 5px #888888;
+}
+.geo {
+	width: 175px;
+	height: 175px;
+	background-color: #1B6678;
+	margin-top: 60px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.geo a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
